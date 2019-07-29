@@ -59,7 +59,7 @@
   position: relative;
   color: white;
   font-family: 'Hind Siliguri', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
   line-height: 2rem;
@@ -70,10 +70,10 @@
 .btn-index {
   font-family: 'Hind Siliguri', sans-serif;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #ffffff;
-  letter-spacing: 2px;
-  padding: 10px 30px;
+  letter-spacing: 1px;
+  padding: 8px 20px;
   border: 2px solid #ffffff;
   border-radius: 5%;
 }
