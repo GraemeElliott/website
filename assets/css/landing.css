@@ -74,7 +74,7 @@
   color: #ffffff;
   letter-spacing: 1px;
   padding: 8px 20px;
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
   border-radius: 5%;
 }
 
@@ -112,46 +112,26 @@
 }
 
 /* --- MOBILE RESPONSIVE --- */
- 
- /* Extra small devices (phones, 600px and down) */
- @media only screen and (max-width: 600px) {
-
-  /* Hero Section */
-
-  .hero-header h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 3rem;
-  }
-  
-  .hero-header h2 {
-    font-size: 0.95rem;
-    font-weight: 400;
-    line-height: 1.2rem;
-  }
-
-  .sm-icons {
-    font-size: 1.25rem;
-  }
-
-  .fab:hover {
-    animation: pop none;
-  }
-
-  .btn-div{
-    margin-top: 2rem;
-  }
-
-  .btn-div:hover{
-    animation: pop none;
-  }
-
- }
-
-
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width: 600px) {}
+ @media only screen and (max-width: 300px) {
+   .hero-header h1 {
+     font-size: 6rem;
+   }
+
+   .hero-header h2 {
+     font-size: 2.5rem;
+     line-height: 3rem;
+   }
+
+   .sm-icons {
+     font-size: 2.5rem;
+   }
+
+   .btn-index {
+     font-size: 3rem;
+   }
+ }
  
  /* Medium devices (landscape tablets, 768px and up) */
  @media only screen and (min-width: 768px) {}
