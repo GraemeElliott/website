@@ -59,7 +59,7 @@
   position: relative;
   color: white;
   font-family: 'Hind Siliguri', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   text-align: center;
   line-height: 2rem;
@@ -68,12 +68,12 @@
 /* Enter Button */
 
 .btn-index {
-  font-family: Poppins;
+  font-family: 'Hind Siliguri', sans-serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 2rem;
   color: #ffffff;
   letter-spacing: 2px;
-  padding: 12px 40px;
+  padding: 10px 30px;
   border: 2px solid #ffffff;
   border-radius: 5%;
 }
