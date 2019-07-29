@@ -138,6 +138,10 @@
     animation: pop none;
   }
 
+  .btn {
+    padding: 3px 15px;
+  }
+
   .btn-div{
     margin-top: 2rem;
   }
