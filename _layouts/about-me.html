@@ -11,9 +11,9 @@
 {% seo %}
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
-<link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
 
+<link href="{{ site.baseurl }}/assets/css/about.css" rel="stylesheet">
+    
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
@@ -93,7 +93,7 @@ ga('send', 'pageview');
 
 <div class="site-content">
 
-
+<div class="container">
 
 <!-- Content
 ================================================== -->
@@ -101,8 +101,7 @@ ga('send', 'pageview');
     {{ content }}
 </div>
     
-
-</div> <!-- /.site-content -->
+</div>
 
 
 
@@ -120,7 +119,7 @@ ga('send', 'pageview');
 <!-- End Footer
 ================================================== -->
 
-
+</div> <!-- /.site-content -->
 
 <!-- Scripts
 ================================================== -->
@@ -136,10 +135,6 @@ ga('send', 'pageview');
 {% endif %}
 
 <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script> 
-
-{% if page.layout == 'post' %}
-<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
-{% endif %}
 
 </body>
 </html>
