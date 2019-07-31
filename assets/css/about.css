@@ -7,7 +7,7 @@ License: https://www.wowthemes.net/freebies-license/
 @import url('https://fonts.googleapis.com/css?family=Poppins|Hind+Siliguri:300,400,700');
 
 @media screen and (min-width:1500px) {
-    html { font-size:18px; } /* Increase the font size on higher resolutions */
+    html { font-size:14px; } /* Increase the font size on higher resolutions */
     .container {max-width:80%;}
 }
 .mainheading {
