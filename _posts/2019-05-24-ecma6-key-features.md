@@ -3,7 +3,7 @@ layout: post
 title:  "ECMA6 – Some Key Features"
 author: graeme
 categories: [ JavaScript ]
-image: assets/images/blog-images/10.jpg
+image: assets/images/blog-images/8.jpg
 ---
 
 With the evolution of JavaScript there have been some advancements in the way code is written in order to make it easier to read and faster to run. The advancements have reduced the amount of code written as well as making the code more efficient and dynamic. I am not going to cover everything new in ECMA6 (and beyond!) but highlight a few of the most useful ones that I have learned through the courses I take. This post will more than likely be updated in the futre to include some newly found ECMA6 scripts.
