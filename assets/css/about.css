@@ -63,7 +63,7 @@ section.recent-posts {
 }
 
 img {
-    max-width: 100%;
+    max-width: 40%;
 }
 
 .sm-icons {
@@ -74,7 +74,11 @@ img {
     padding: 0 0.5rem;
     margin-bottom: 2rem;
     color: #222;
-  }
+}
+
+.sm-icons i:first {
+    padding: 0;
+}
 
 .main-content-centered {
     margin: auto;
