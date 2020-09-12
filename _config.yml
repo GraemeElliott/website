@@ -3,10 +3,9 @@ name: "Graeme Elliott"
 title: "Graeme Elliott"
 description: "Senior Brand Protection Analyst / Budding Web Developer"
 baseurl: ""
-logo: 'assets/images/logo.png'
+logo: ''
 favicon: 'assets/images/logo.png'
 google_analytics: 'UA-46278016-1'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 
@@ -17,10 +16,11 @@ authors:
     display_name: Graeme Elliott
     gravatar: fa01a198ddf67429eee107691cf4e3d0
     email: graeme.elliott@dimedout.com
-    web: https://www.graemeelliott.com
+    web: https://graemeelliott.dev
+    author_page: https://graemeelliott.dev/about
     twitter: https://twitter.com/graemeelliott
-    title: "Senior Brand Protection Analyst / Budding Web Developer"
-    description: "I'm Graeme, a Senior Brand Protection Analyst and aspiring Front-End Developer. To help myself document and learn as I progress through courses and challenges I am publically writing free, quality articles and tutorials for anyone to read. I drink orange squash exclusively (no coffee, thanks!) and splurge my money on books and tech."
+    title: "APAC & EMEA Team Lead; Brand Protection / Budding Web Developer"
+    description: "I'm Graeme Elliott, an APAC & EMEA Team Lead in Brand Protection, and aspiring Front-End Developer. To help myself document and learn as I progress through courses and challenges I am publically writing free, quality articles and tutorials for anyone to read. My main loves in life include music, books and notebooks, stationary, Vans shoes and technology."
 
 # Plugins
 plugins:

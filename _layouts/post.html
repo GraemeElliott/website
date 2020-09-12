@@ -12,7 +12,6 @@ post_class: post-template
 
         <!-- Post Share -->
         <div class="col-md-2 pl-0">
-            {% include share.html %}
         </div>
 
         <!-- Post -->
@@ -65,7 +64,13 @@ post_class: post-template
                     {% endif %}
                 </div>
                 <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                    <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+                    <a target="_blank" class="link-dark author_post_name" href="{{ author.author_page }}">{{ author.display_name }}</a>
+
+                        <a class="author_sm_icon" href="https://www.github.com/graemeelliott"><i class="fab fa-github fa-lg"></i></a>
+                        <a class="author_sm_icon" href="https://www.linkedin.com/in/graeme-elliott/"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a class="author_sm_icon" href="https://www.twitter.com/graemeelliott"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a class="author_sm_icon" href="https://www.instagram.com/graemeelliott"><i class="fab fa-instagram fa-lg"></i></a>
+
                     <div class="author-title">{{ author.title }}</div>
                     <div class="author-description">{{ author.description }}</div>
                     

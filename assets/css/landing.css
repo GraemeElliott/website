@@ -84,10 +84,6 @@
   text-align: center;
 }
 
-.btn-div:hover{
-  animation: pop 0.4s linear 1;
-}
-
 /* Social Media Icons */
 
 .sm-icons {
